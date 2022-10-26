@@ -7,9 +7,9 @@ const word2 = prompt("Inserisci un'altra parola");
 console.log(word2);
 
 if ( word1.length > word2.length ) {
-    console.log(word1);
+    console.log(word1, word2);
 } else if ( word1.length < word2.length ) {
-    console.log(word2);
+    console.log(word2, word1);
 } else {
     console.log("Le parole hanno lo stesso numero di lettere");
 }
