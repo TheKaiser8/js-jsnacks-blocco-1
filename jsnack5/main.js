@@ -7,8 +7,8 @@ const oddContainer = [];
 
 for (let i = 0; i < 6; i++) {
     const number = Number( prompt("Inserisci un numero") );
-    if( !(number % 2 === 0 ) ) {
+    if( !(number % 2 === 0) ) {
         oddContainer.push(number);
-        console.log(oddContainer);
     }
 }
+console.log(oddContainer);
